@@ -1,0 +1,32 @@
+{
+  "hosting": {
+    "public": "pages",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/rider/**",
+        "destination": "rider/index.html"
+      },
+      {
+        "source": "/coolGirl/**",
+        "destination": "coolGirl/index.html"
+      },
+      {
+        "source": "/cpaProject/about/",
+        "destination": "cpaProject/about/index.html"
+      },
+      {
+        "source": "/cpaProject/contact/",
+        "destination": "cpaProject/contact/index.html"
+      },
+      {
+        "source": "/hotel/build/",
+        "destination": "hotel/build/index.html"
+      },
+      {
+        "source": "/static/**",
+        "destination": "hotel/build/static/"
+      }
+    ]
+  }
+}
